@@ -8,6 +8,26 @@
 ```
 - 由于EFBbot主程序进行了更新，而脚本未更新，所以EFBbot安装不了咯~
 ```
+查看时区命令
+timedatectl
+时区的命令：
+dpkg-reconfigure tzdata
+
+v2ray主程序安装
+
+sudo -i
+
+bash <(curl -s -L https://git.io/v2ray.sh)
+
+如果提示 curl: command not found，请安装 Curl
+
+ubuntu/debian11 系统安装 Curl 方法: 
+
+apt-get update -y && apt-get install curl -y
+
+centos 系统安装 Curl 方法: 
+
+yum update -y && yum install curl -y
 
 
 # 获取&使用 #
